@@ -172,9 +172,7 @@ body {
     max-width: 38.0625rem;
     line-height: 4rem;
 }
-.Section{
-    
-}
+
 .Skills-wrapper{
     padding: 3.75rem 5rem;
     width: 100%;
@@ -193,10 +191,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-}
-.Svg{
-    width: 80px;
-    height: 80px;
 }
 .Skills-text--wrapper{
     display: flex;
