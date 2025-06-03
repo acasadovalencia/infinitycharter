@@ -92,7 +92,8 @@ svg {
     --bg-c-primary: #00131E;
     --bg-c-primary-op: rgb(0, 19, 30, .7);
     --bg-c-secondary: #00131E;
-    --bg-c-tertiary: #10B2BE;
+    --bg-c-tertiary: #102634;
+    --bg-c-cuaternary: #10B2BE; 
 }
 body {
     min-height: 100vh;
@@ -172,11 +173,12 @@ body {
     line-height: 4rem;
 }
 .Section{
-    padding: 0 5rem;
     
 }
 .Skills-wrapper{
-    padding: 3.75rem 0;
+    padding: 3.75rem 5rem;
+    width: 100%;
+    background-color: var(--bg-c-tertiary) ;
 }
 .Skills-ul{
     display: flex;
