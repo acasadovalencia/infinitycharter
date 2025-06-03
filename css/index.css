@@ -120,7 +120,7 @@ body {
     align-items: center;
     padding: 1.5rem 5rem;
 }
-.Header-ul--nav{
+.Nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
@@ -129,18 +129,18 @@ body {
     font-size: 1.5rem;
     font-weight: 300;
 }
-.Header-li--nav{
+.Nav-li{
     text-transform: uppercase;
     padding: 0 1rem;
 }
-.Header-a--nav{
+.Nav-a{
     cursor: pointer;
     transition: all .5s ease;
 }
-.Header-a--nav:hover{
+.Nav-a:hover{
     color: var(--font-c-tertiary);
 }
-.Header-a--nav::after{
+.Nav-a::after{
     content: "";
     display: block;
     width: 100%;
@@ -149,7 +149,7 @@ body {
     transform: scaleX(0);
     transition: transform .5s ease;
 }
-.Header-a--nav:hover::after{
+.Nav-a:hover::after{
     transform: scaleX(1);
 }
 .Hero-wrapper{
