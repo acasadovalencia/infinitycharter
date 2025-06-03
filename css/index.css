@@ -1,61 +1,61 @@
-  /* Resets */
-  * {
+/* Resets */
+* {
     margin: 0;
     padding: 0;
     border: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     vertical-align: baseline;
-  }
+}
   
-  img, picture, video, iframe, figure {
+img, picture, video, iframe, figure {
     max-width: 100%;
     width: 100%;
     display: block;
-  }
+}
   
-  a {
+a {
     display: block;
     text-decoration: none;
     color: inherit;
     font-size: inherit;
-  }
+}
   
-  p a {
+p a {
     display: inline;
-  }
+}
 
-  li {
+li {
     list-style-type: none;
-  }
+}
 
-  html {
+html {
     scroll-behavior: smooth;
-  }
+}
 
-  h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
     font-size: 1em;
     font-weight: inherit;
     font-style: inherit;
     text-decoration: none;
     color: inherit;
-  }
+}
 
-  blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
     content: "";
     content: none;
-  }
+}
   
-  ::-moz-selection {
+::-moz-selection {
     background-color: var(--negro);
     color: var(--blanco);
-  }
-  ::selection {
+}
+::selection {
     background-color: var(--negro);
     color: var(--blanco);
-  }
+}
   
-  form, input, textarea, select, button, label {
+form, input, textarea, select, button, label {
     font-family: inherit;
     font-size: inherit;
     -webkit-hyphens: auto;
@@ -68,22 +68,22 @@
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
-  }
+}
   
-  table, tr, td {
+table, tr, td {
     border-collapse: collapse;
     border-spacing: 0;
-  }
+}
   
-  svg {
+svg {
     display: block;
     fill: currentColor;
-  }
+}
   
-  ::-webkit-scrollbar {
+::-webkit-scrollbar {
     display: none;
-  }
-  :root {
+}
+:root {
     --font-primary: "Oswald", sans-serif;
     --font-secondary: "League Gothic", sans-serif;
     --font-c-primary: #FFF;
@@ -92,8 +92,8 @@
     --bg-c-primary: #00131E;
     --bg-c-secondary: #00131E;
     --bg-c-tertiary: #10B2BE;
-  }
-  body {
+}
+body {
     min-height: 100vh;
     font-size: 1.125rem;
     font-family: var(--font-primary);
@@ -104,4 +104,22 @@
     -moz-osx-font-smoothing: grayscale;
     background-color: var(--bg-c-primary);
     color: var(--font-c-primary);
-  }
+}
+.Header-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 5rem;
+}
+.Header-ul--nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: .625rem;
+}
+.Header-li--nav{
+    text-transform: uppercase;
+    padding: 0 1rem;
+}
