@@ -85,7 +85,7 @@ svg {
 }
 :root {
     --font-primary: "Oswald", sans-serif;
-    --font-secondary: "League Gothic", sans-serif;
+    --font-secondary: "Noto Sans", sans-serif;
     --font-c-primary: #FFF;
     --font-c-secondary: #FEFEFE;
     --font-c-tertiary: #10B2BE;
@@ -96,7 +96,7 @@ svg {
 }
 body {
     min-height: 100vh;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-family: var(--font-primary);
     -webkit-hyphens: auto;
         -ms-hyphens: auto;
@@ -170,4 +170,46 @@ body {
     font-weight: 300;
     max-width: 38.0625rem;
     line-height: 4rem;
+}
+.Section{
+    padding: 0 5rem;
+    
+}
+.Skills-wrapper{
+    padding: 3.75rem 0;
+}
+.Skills-ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+.Skills-li{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.Svg{
+    width: 80px;
+    height: 80px;
+}
+.Skills-text--wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+.Skills-h3{
+    font-size: 1.5rem;
+    color: var(--font-c-tertiary);
+    font-weight: 300;
+}
+.Skills-paragraph{
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    line-height: 1.625rem;
 }
