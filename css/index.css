@@ -209,3 +209,33 @@ body {
     font-weight: 300;
     line-height: 1.625rem;
 }
+.About-wrapper{
+    min-height: calc(100vh - 5.75rem);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.5rem;
+    padding: 0 5rem;
+}
+.About-h2{
+    font-size: 3.25rem;
+    font-weight: 300;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+.Paragraph-wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+.About-paragraph{
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 300;
+    max-width: 40.9375rem;
+}
+
