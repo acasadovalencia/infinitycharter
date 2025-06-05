@@ -89,6 +89,7 @@ svg {
     --font-c-primary: #FFF;
     --font-c-secondary: #FEFEFE;
     --font-c-tertiary: #10B2BE;
+    --font-c-shadow: rgb(0, 0, 0, .2);
     --bg-c-primary: #00131E;
     --bg-c-primary-op: rgb(0, 19, 30, .7);
     --bg-c-secondary: #00131E;
@@ -137,6 +138,8 @@ body {
 .Nav-a{
     cursor: pointer;
     transition: all .5s ease;
+    color: var(--font-c-secondary);
+    text-shadow: 0px 4px 4px var(--font-c-shadow);
 }
 .Nav-a:hover{
     color: var(--font-c-tertiary);
@@ -208,6 +211,8 @@ body {
     font-family: var(--font-secondary);
     font-weight: 300;
     line-height: 1.625rem;
+    color: var(--font-c-secondary);
+    text-shadow: 0px 4px 4px var(--font-c-shadow);
 }
 .About-wrapper{
     min-height: calc(100vh - 5.75rem);
@@ -237,5 +242,6 @@ body {
     line-height: 2.25rem;
     font-weight: 300;
     max-width: 40.9375rem;
+    text-shadow: 0px 4px 4px var(--font-c-shadow);
 }
 
