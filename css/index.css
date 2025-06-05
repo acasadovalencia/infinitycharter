@@ -387,5 +387,5 @@ body {
     color: var(--font-c-secondary);
 }
 .Otherservices-span--price{
-    font-size: italic;
+    font-style: italic;
 }
