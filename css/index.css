@@ -222,12 +222,14 @@ body {
     align-items: flex-start;
     gap: 2.5rem;
     padding: 0 5rem;
+    position: relative;
 }
 .About-h2{
     font-size: 3.25rem;
     font-weight: 300;
     line-height: 4rem;
     text-transform: uppercase;
+    z-index: 1;
 }
 .Paragraph-wrapper{
     display: flex;
@@ -235,6 +237,7 @@ body {
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2.5rem;
+    z-index: 1;
 }
 .About-paragraph{
     font-family: var(--font-secondary);
@@ -244,4 +247,23 @@ body {
     max-width: 40.9375rem;
     text-shadow: 0px 4px 4px var(--font-c-shadow);
 }
-
+.About-picture{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.About-img{
+    height: 100%;
+    object-fit: cover;
+}
+.About-picture::before{
+    content: "";
+    background: linear-gradient(to bottom, var(--bg-c-primary), transparent);
+    width: 100%;
+    height: 25rem;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
