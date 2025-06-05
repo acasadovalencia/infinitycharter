@@ -108,6 +108,12 @@ body {
     background-color: var(--bg-c-primary);
     color: var(--font-c-primary);
 }
+.H2{
+    font-size: 3.25rem;
+    font-weight: 300;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
 .Header{
     width: 100%;
     position: fixed;
@@ -175,7 +181,6 @@ body {
     max-width: 38.0625rem;
     line-height: 4rem;
 }
-
 .Skills-wrapper{
     padding: 3.75rem 5rem;
     width: 100%;
@@ -225,10 +230,6 @@ body {
     position: relative;
 }
 .About-h2{
-    font-size: 3.25rem;
-    font-weight: 300;
-    line-height: 4rem;
-    text-transform: uppercase;
     z-index: 1;
 }
 .Paragraph-wrapper{
@@ -266,4 +267,61 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+}
+.Services-container{
+    padding: 5rem;
+}
+.Services-ul{
+    margin: 2.5rem 0 0;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 2rem;
+}
+.Services-li{
+    background-color: var(--bg-c-tertiary);
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Services-wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items:flex-start;
+    flex: 1;
+    gap: 1.5rem;
+}
+.Services-h4{
+    font-size: 1.875rem;
+    color: var(--font-c-tertiary);
+    text-transform: uppercase;
+}
+.Services-span{
+    font-size: 20px;
+    font-weight: 200;
+    color: var(--font-c-secondary);
+}
+.Services-paragraph{
+    font-family: var(--font-secondary);
+    color: var(--font-c-secondary);
+    font-weight: 300;
+    line-height: 1.625rem;
+    margin: 1.5rem 0 0;
+}
+.Prices{
+    color: #FEFEFE;
+    font-style: italic;
+    font-family: var(--font-secondary);
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.Prices-span{
+    font-size: 2rem;
+}
+.Prices-span--details{
+    font-size: 1.0625rem;
 }
