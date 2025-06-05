@@ -284,6 +284,10 @@ body {
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: flex-start;
+    gap: 1rem;
+}
+.Services-img{
+    object-fit: cover;
 }
 .Services-wrapper{
     display: flex;
@@ -324,4 +328,31 @@ body {
 }
 .Prices-span--details{
     font-size: 1.0625rem;
+}
+.Info-container{
+    padding: 0 5rem;
+}
+.Info-ul{
+    padding: 2.5rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5.4688rem;
+}
+.Info-li{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+}
+.Info-span{
+    color: var(--font-c-secondary);
+    font-family: var(--font-secondary);
+    font-weight: 200;
+    font-size: 1.0625rem;
+    line-height: 1.5rem;
+    font-style: italic;
+    text-align: center;
 }
