@@ -299,7 +299,7 @@ body {
     text-transform: uppercase;
 }
 .Services-span{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 200;
     color: var(--font-c-secondary);
 }
