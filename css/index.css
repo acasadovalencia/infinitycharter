@@ -120,6 +120,12 @@ body {
     font-size: 1.5rem;
     text-transform: uppercase;
 }
+.H5{
+    font-size: 1.0625rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 300;
+}
 .Header{
     width: 100%;
     position: fixed;
@@ -422,7 +428,7 @@ body {
     align-items: center;
 }
 .Infinity-characteristics{
-    padding: 5rem;
+    padding: 5rem 5rem 0 5rem;
 }
 .Infinity-paragraph{
     font-family: var(--font-secondary);
@@ -465,6 +471,41 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+}
+.Infinity-equipment{
+    padding: 5rem 5rem 0 5rem;
+}
+.Equipment-ul{
+    margin: 1.5rem 0 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.125rem;
+    width: 100%;
+}
+.Equipment-li{
+    width: 50%;
+}
+.Equipments-ul{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 1.5rem 0 0;
+}
+.Equipments-li{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.Equipments-span{
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    font-size: 1.0625rem;
 }
 
 @keyframes marquee {
