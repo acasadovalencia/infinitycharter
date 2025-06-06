@@ -88,7 +88,8 @@ svg {
     --font-secondary: "Noto Sans", sans-serif;
     --font-c-primary: #FFF;
     --font-c-secondary: #FEFEFE;
-    --font-c-tertiary: #10B2BE;
+    --font-c-tertiary: #102634;
+    --font-c-cuaternary: #10B2BE;
     --font-c-shadow: rgb(0, 0, 0, .2);
     --bg-c-primary: #00131E;
     --bg-c-primary-op: rgb(0, 19, 30, .7);
@@ -149,7 +150,7 @@ body {
     text-shadow: 0px 4px 4px var(--font-c-shadow);
 }
 .Nav-a:hover{
-    color: var(--font-c-tertiary);
+    color: var(--font-c-cuaternary);
 }
 .Nav-a::after{
     content: "";
@@ -210,7 +211,7 @@ body {
 }
 .Skills-h3{
     font-size: 1.5rem;
-    color: var(--font-c-tertiary);
+    color: var(--font-c-cuaternary);
     font-weight: 300;
 }
 .Skills-paragraph{
@@ -300,7 +301,7 @@ body {
 }
 .Services-h4{
     font-size: 1.875rem;
-    color: var(--font-c-tertiary);
+    color: var(--font-c-cuaternary);
     text-transform: uppercase;
 }
 .Services-span{
@@ -388,4 +389,40 @@ body {
 }
 .Otherservices-span--price{
     font-style: italic;
+}
+.Marquee-container{
+    width: 100%;
+    padding: 1.4063rem;
+    background-color: var(--bg-c-cuaternary);
+}
+.Marquee-ul{
+    /* display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300%;
+    color: var(--font-c-tertiary);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-shadow: 0px 4px 4px var(--font-c-shadow);
+    animation: marquee 15s linear infinite;
+}
+.Marquee-li{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
 }
