@@ -420,6 +420,52 @@ body {
 .Infinity-container{
     padding: 5rem;
 }
+.Infinity-paragraph{
+    font-family: var(--font-secondary);
+    margin: 2.5rem 0 0;
+}
+.Characteristics-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.75rem;
+    margin: 2.5rem 0;
+}
+.Characteristics-picture{
+    width: auto;
+}
+.Characteristics-text{
+    width: fit-content;
+}
+.Characteristics-h4{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.Characteristics-ul{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 2rem 0 0;
+}
+.Characteristics-li{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .8125rem;
+    font-family: var(--font-secondary);
+    font-size: 1.0625rem;
+    font-weight: 300;
+}
+.Characteristics-svg{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
 
 @keyframes marquee {
   from {
