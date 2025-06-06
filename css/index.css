@@ -417,6 +417,9 @@ body {
     justify-content: flex-start;
     align-items: center;
 }
+.Infinity-container{
+    padding: 5rem;
+}
 
 @keyframes marquee {
   from {
