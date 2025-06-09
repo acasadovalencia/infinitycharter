@@ -534,11 +534,21 @@ body {
 }
 .Contact-details{
     width: 100%;
+}
+.Contact-ul{
+    margin: 2rem 0 0;
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-start;
     align-items: flex-start;
     gap: 2rem;
+}
+.Contact-li{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
 }
 
 @keyframes marquee {
