@@ -554,6 +554,21 @@ body {
     font-weight: 300;
     line-height: 1.5rem;
 }
+.Whatsapp-a{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.Whatsapp-a::before{
+    content: "";
+    width: 3px;
+    height: 3px;
+    border-radius: .5rem;
+    background-color: var(--font-c-primary);
+    display: block;
+}
 
 @keyframes marquee {
   from {
