@@ -570,6 +570,7 @@ body {
     display: block;
 }
 .Footer{
+    margin: 5rem 0 0;
     background-color: var(--bg-c-cuaternary);
     color: var(--font-c-tertiary);
     text-shadow: 0px 4px 4px var(--font-c-shadow);
@@ -626,6 +627,14 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: .75rem;
+}
+.Policies-ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5rem;
+    padding: 0 0 2.5rem;
 }
 
 @keyframes marquee {
