@@ -408,6 +408,7 @@ body {
     width: 100%;
     padding: 1.4063rem;
     background-color: var(--bg-c-cuaternary);
+    overflow-x: hidden;
 }
 .Marquee-ul{
     /* display: grid;
