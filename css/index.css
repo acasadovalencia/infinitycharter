@@ -449,6 +449,10 @@ body {
 }
 .Characteristics-picture{
     width: auto;
+    border-radius: .625rem;
+}
+.Characteristics-img{
+    border-radius: .625rem;
 }
 .Characteristics-text{
     width: fit-content;
