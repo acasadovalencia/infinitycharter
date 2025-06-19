@@ -516,6 +516,34 @@ body {
     font-weight: 300;
     font-size: 1.0625rem;
 }
+.Images-grid{
+    padding: 5rem 5rem 0 5rem;
+}
+.Grid-ul{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    gap: 1.375rem;
+}
+.Grid-li{
+    grid-column: span 2;
+}
+.Grid-picture{
+    overflow: hidden;
+}
+.Grid-img{
+    transition: transform 1s ease;
+    transform: scale(1.15);
+}
+.Grid-img:hover{
+    transform: scale(1);
+}
+.Image-big{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.Image-medium{
+    grid-column: span 3;
+}
 .Contact-container{
     padding: 5rem 5rem 0 5rem;
 }
