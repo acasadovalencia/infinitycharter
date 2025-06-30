@@ -180,7 +180,6 @@ body {
 }
 .Hero-video{
     height: 100%;
-    background-color: blue;
     width: 100%;
     object-fit: cover;
     object-position: top;
@@ -201,6 +200,13 @@ body {
     padding: 3.75rem 5rem;
     width: 100%;
     background-color: var(--bg-c-tertiary) ;
+    position: relative;
+}
+.Skills-h2{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
 }
 .Skills-ul{
     display: flex;
