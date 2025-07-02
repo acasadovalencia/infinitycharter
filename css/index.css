@@ -466,6 +466,41 @@ body {
 .Otherservices-span--price{
     font-style: italic;
 }
+.Routes-wrapper{
+    padding: 5rem;
+}
+.Routes-paragraph{
+    margin: 1rem 0 0;
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+.Routes-container{
+    padding: 2.5rem 0 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 2.5rem;
+    width: 100%;
+}
+.Routes-ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.Routes-img{
+    object-fit: cover;
+}
+.Route-span{
+    margin: .5rem 0 0;
+    font-size: 1.0625rem;
+    font-weight: 200;
+}
+.Map-img{
+    object-fit: cover;
+    max-width: 42.1875rem;
+    height: 42.1875rem;
+}
 .Contact-container{
     padding: 5rem 5rem 0 5rem;
 }
