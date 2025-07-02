@@ -415,6 +415,7 @@ body {
     padding: 1.4063rem;
     background-color: var(--bg-c-cuaternary);
     overflow-x: hidden;
+    margin: 5rem 0 0;
 }
 .Marquee-ul{
     /* display: grid;
