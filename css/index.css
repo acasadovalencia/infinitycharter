@@ -467,7 +467,7 @@ body {
     font-style: italic;
 }
 .Routes-wrapper{
-    padding: 5rem;
+    padding: 5rem 5rem 0;
 }
 .Routes-paragraph{
     margin: 1rem 0 0;
@@ -481,12 +481,12 @@ body {
     flex-flow: row nowrap;
     justify-content: space-between;
     gap: 2.5rem;
-    width: 100%;
 }
 .Routes-ul{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fit , minmax(140px , 1fr));
     gap: 1rem;
+    width: 50%;
 }
 .Routes-img{
     object-fit: cover;
@@ -498,8 +498,6 @@ body {
 }
 .Map-img{
     object-fit: cover;
-    max-width: 42.1875rem;
-    height: 42.1875rem;
 }
 .Contact-container{
     padding: 5rem 5rem 0 5rem;
