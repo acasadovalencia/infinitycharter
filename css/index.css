@@ -290,6 +290,147 @@ body {
     top: 0;
     left: 0;
 }
+.Infinity-characteristics{
+    padding: 5rem 5rem 0 5rem;
+}
+.Infinity-paragraph{
+    font-family: var(--font-secondary);
+    margin: 2.5rem 0 0;
+}
+.Characteristics-wrapper{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3.75rem;
+    margin: 2.5rem 0 0;
+}
+.Characteristics-picture{
+    width: auto;
+    border-radius: .625rem;
+}
+.Characteristics-img{
+    border-radius: .625rem;
+}
+.Characteristics-text{
+    width: fit-content;
+}
+.Characteristics-ul{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 2rem 0 0;
+}
+.Characteristics-li{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .8125rem;
+    font-family: var(--font-secondary);
+    font-size: 1.0625rem;
+    font-weight: 300;
+}
+.Characteristics-svg{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.Infinity-equipment{
+    padding: 2.5rem 5rem 0 5rem;
+}
+.Equipment-ul{
+    margin: 1.5rem 0 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.125rem;
+    width: 100%;
+}
+.Equipment-li{
+    width: 50%;
+}
+.Equipments-ul{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    margin: 1.5rem 0 0;
+}
+.Equipments-li{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.Equipments-span{
+    font-family: var(--font-secondary);
+    font-weight: 300;
+    font-size: 1.0625rem;
+}
+.Images-grid{
+    padding: 5rem 5rem 0 5rem;
+}
+.Grid-ul{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    gap: 1.375rem;
+}
+.Grid-li{
+    grid-column: span 2;
+}
+.Grid-picture{
+    overflow: hidden;
+}
+.Grid-img{
+    transition: transform 1s ease;
+    transform: scale(1.15);
+}
+.Grid-img:hover{
+    transform: scale(1);
+}
+.Image-big{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+.Image-medium{
+    grid-column: span 3;
+}
+.Marquee-container{
+    width: 100%;
+    padding: 1.4063rem;
+    background-color: var(--bg-c-cuaternary);
+    overflow-x: hidden;
+    margin: 5rem 0 0;
+}
+.Marquee-ul{
+    /* display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 300%;
+    color: var(--font-c-tertiary);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-shadow: 0px 4px 4px var(--font-c-shadow);
+    animation: marquee 15s linear infinite;
+}
+.Marquee-li{
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
 .Services-container{
     padding: 5rem;
 }
@@ -409,147 +550,6 @@ body {
 }
 .Otherservices-span--price{
     font-style: italic;
-}
-.Marquee-container{
-    width: 100%;
-    padding: 1.4063rem;
-    background-color: var(--bg-c-cuaternary);
-    overflow-x: hidden;
-    margin: 5rem 0 0;
-}
-.Marquee-ul{
-    /* display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: auto; */
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    width: 300%;
-    color: var(--font-c-tertiary);
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    text-shadow: 0px 4px 4px var(--font-c-shadow);
-    animation: marquee 15s linear infinite;
-}
-.Marquee-li{
-    margin: 0 auto;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-}
-.Infinity-characteristics{
-    padding: 5rem 5rem 0 5rem;
-}
-.Infinity-paragraph{
-    font-family: var(--font-secondary);
-    margin: 2.5rem 0 0;
-}
-.Characteristics-wrapper{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 3.75rem;
-    margin: 2.5rem 0 0;
-}
-.Characteristics-picture{
-    width: auto;
-    border-radius: .625rem;
-}
-.Characteristics-img{
-    border-radius: .625rem;
-}
-.Characteristics-text{
-    width: fit-content;
-}
-.Characteristics-ul{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 1.5rem;
-    margin: 2rem 0 0;
-}
-.Characteristics-li{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: .8125rem;
-    font-family: var(--font-secondary);
-    font-size: 1.0625rem;
-    font-weight: 300;
-}
-.Characteristics-svg{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-}
-.Infinity-equipment{
-    padding: 2.5rem 5rem 0 5rem;
-}
-.Equipment-ul{
-    margin: 1.5rem 0 0;
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 1.125rem;
-    width: 100%;
-}
-.Equipment-li{
-    width: 50%;
-}
-.Equipments-ul{
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 1.5rem;
-    margin: 1.5rem 0 0;
-}
-.Equipments-li{
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
-}
-.Equipments-span{
-    font-family: var(--font-secondary);
-    font-weight: 300;
-    font-size: 1.0625rem;
-}
-.Images-grid{
-    padding: 5rem 5rem 0 5rem;
-}
-.Grid-ul{
-    display: grid;
-    grid-template-columns: repeat(6 , 1fr);
-    gap: 1.375rem;
-}
-.Grid-li{
-    grid-column: span 2;
-}
-.Grid-picture{
-    overflow: hidden;
-}
-.Grid-img{
-    transition: transform 1s ease;
-    transform: scale(1.15);
-}
-.Grid-img:hover{
-    transform: scale(1);
-}
-.Image-big{
-    grid-column: span 3;
-    grid-row: span 2;
-}
-.Image-medium{
-    grid-column: span 3;
 }
 .Contact-container{
     padding: 5rem 5rem 0 5rem;
