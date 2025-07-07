@@ -232,6 +232,7 @@ body {
 }
 .Characteristics-img{
     border-radius: .625rem;
+    object-fit: cover;
 }
 .Characteristics-text{
     width: fit-content;
@@ -709,6 +710,10 @@ body {
     }
     .Characteristics-wrapper{
         gap: 2rem;
+    }
+    .Info-ul{
+        gap: 2.5rem;
+        padding: 2.5rem 0 0 0;
     }
 }
 
