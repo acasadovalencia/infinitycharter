@@ -457,6 +457,9 @@ body {
 .Otherservices-li{
     position: relative;
 }
+.Otherservices-img{
+    object-fit: cover;
+}
 .Otherservices-text{
     position: absolute;
     bottom: 1rem;
@@ -579,7 +582,7 @@ body {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 13.125rem;
+    gap: 1rem;
     padding: 2.5rem 5rem;
 }
 .Footer-whatsapp{
@@ -683,6 +686,11 @@ body {
         padding: 2.5rem;
     }
 }
+@media(max-width:888px){
+    .Footer-svg{
+        width: 7.8125rem;
+    }
+}
 @media(max-width:860px){
     .Marquee-ul{
         width: 500%;
@@ -714,6 +722,9 @@ body {
     .Info-ul{
         gap: 2.5rem;
         padding: 2.5rem 0 0 0;
+    }
+    .Otherservices-text{
+    font-size: 1.5rem;
     }
 }
 
