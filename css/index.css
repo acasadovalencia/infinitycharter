@@ -149,6 +149,9 @@ body {
     color: var(--font-c-cuaternary);
     font-weight: 300;
 }
+.Svg-wrapper--mobile{
+    display: none;
+}
 .Skills-paragraph{
     font-family: var(--font-secondary);
     font-weight: 300;
