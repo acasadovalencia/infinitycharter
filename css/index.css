@@ -12,6 +12,9 @@
     --bg-c-tertiary: #102634;
     --bg-c-cuaternary: #10B2BE; 
 }
+.Routes{
+    display: none;
+}
 body {
     min-height: 100vh;
     font-size: 1rem;
@@ -728,6 +731,12 @@ body {
     .Otherservices-text{
     font-size: 1.5rem;
     }
+    .Contact-iframe{
+    aspect-ratio: initial;
+    }
+    .Contact-wrapper{
+        flex-direction: column;
+    }
 }
 @media(max-width:768px){
     .Marquee-ul{
@@ -744,6 +753,9 @@ body {
     }
     .Skills-h3{
         width: 100%;
+    }
+    .Skills-text--wrapper{
+        gap: .5rem;
     }
     .Info-span{
         font-size: .875rem;
