@@ -692,6 +692,9 @@ body {
     }
 }
 @media(max-width:888px){
+    .About-paragraph{
+        max-width: 32.9375rem;
+    }
     .Footer-svg{
         width: 7.8125rem;
     }
@@ -721,6 +724,9 @@ body {
         display: block;
         margin: 0 auto;
     }
+    .About-paragraph{
+    max-width: 30rem;
+    }
     .Characteristics-wrapper{
         gap: 2rem;
     }
@@ -739,6 +745,7 @@ body {
     }
 }
 @media(max-width:768px){
+
     .Marquee-ul{
         width: 700%;
     }
