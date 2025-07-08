@@ -733,6 +733,23 @@ body {
     .Marquee-ul{
         width: 700%;
     }
+    .Info-svg{
+        width: 3rem;
+    }
+}
+@media(max-width:685px){
+    .Skills-ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Skills-h3{
+        width: 100%;
+    }
+    .Info-span{
+        font-size: .875rem;
+        text-wrap: pretty;
+        hyphens: none;
+    }
 }
 @media(max-width:568px){
     .Marquee-ul{
