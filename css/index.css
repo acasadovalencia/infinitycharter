@@ -570,14 +570,6 @@ body {
     align-items: center;
     gap: 1rem;
 }
-.Whatsapp-a::before{
-    content: "";
-    width: 3px;
-    height: 3px;
-    border-radius: .5rem;
-    background-color: var(--font-c-primary);
-    display: block;
-}
 .Footer{
     margin: 5rem 0 0;
     background-color: var(--bg-c-cuaternary);
@@ -636,6 +628,20 @@ body {
     align-items: center;
     gap: .75rem;
 }
+.Footer-a--whatsapp{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .75rem;
+}
+.Footer-a--contact{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .75rem;
+}
 .Footer-svg{
     margin: 0 auto;
 }
@@ -646,6 +652,14 @@ body {
     align-items: flex-start;
     gap: 5rem;
     padding: 0 0 2.5rem;
+    font-size: 1.0625rem;
+    text-decoration: underline;
+}
+.Policies-li{
+    transition: transform .5s ease;
+}
+.Policies-li:hover{
+    transform: scale(1.05);
 }
 @media(max-width:1260px){
     .Marquee-ul{
@@ -705,8 +719,41 @@ body {
     .About-paragraph{
         max-width: 32.9375rem;
     }
+    .Footer-wrapper{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .Footer-ul{
+        flex-direction: row;
+        align-items: center;
+    }
+    .Footer-svg--contact{
+        width: 2rem;
+        height: 2rem;
+    }
+    .Footer-whatsapp{
+        display: none;
+    }
+    .Footer-a--whatsapp{
+    gap: 0;
+    }
+    .Footer-li--contact{
+        display: none;
+    }
+    .Mail-span{
+        display: none;
+    }
+    .Insta-span{
+        display: none;
+    }
     .Footer-svg{
-        width: 7.8125rem;
+        width: 10.625rem;
+    }
+    .Policies-ul{
+        font-size: .875rem;
+        gap: 1.5rem;
     }
 }
 @media(max-width:860px){
@@ -821,6 +868,13 @@ body {
 @media(max-width:444px){
     .Marquee-ul{
         width: 1100%;
+    }
+}
+@media(max-width:375px){
+    .Policies-ul{
+        flex-direction: column;
+        align-items: center;
+        gap: .5rem;
     }
 }
 @keyframes marquee {
