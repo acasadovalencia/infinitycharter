@@ -440,13 +440,16 @@ body {
     align-items: center;
     gap: 1.5rem;
 }
+.Info-svg{
+        width: 3.75rem;
+        height: 3.75rem;
+    }
 .Info-span{
     color: var(--font-c-secondary);
     font-family: var(--font-secondary);
     font-weight: 200;
-    font-size: 1.0625rem;
+    font-size: .875rem;
     line-height: 1.5rem;
-    font-style: italic;
     text-align: center;
 }
 .Otherservices-container{
@@ -805,6 +808,14 @@ body {
     }
     .Equipments-svg{
         width: 1.5rem;
+    }
+    .Info-ul{
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    }
+    .Info-li{
+        gap: .5rem;
     }
 }
 @media(max-width:444px){
