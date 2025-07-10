@@ -769,6 +769,12 @@ body {
     .Equipments-svg{
         width: 2rem;
     }
+    .Services-ul{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
     .Info-svg{
         width: 3rem;
     }
