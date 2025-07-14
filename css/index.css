@@ -105,7 +105,7 @@ body {
     width: 100%;
     object-fit: cover;
     object-position: top;
-    opacity: 0.8;
+    opacity: 0.7;
 }
 .Hero-h1{
     position: absolute;
@@ -192,6 +192,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    height: 100%;
 }
 .Description-wrapper{
     position: absolute;
