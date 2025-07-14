@@ -855,8 +855,11 @@ body {
         hyphens: none;
     }
 }
-@media(max-width:615px){
-    
+@media(max-width:644px){
+    .H2{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
 }
 @media(max-width:568px){
     .Marquee-ul{
