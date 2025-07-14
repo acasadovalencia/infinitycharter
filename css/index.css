@@ -181,6 +181,7 @@ body {
 .About-img{
     height: calc(100vh - 5.75rem);
     object-fit: cover;
+    opacity: .7;
 }
 .About-picture::before{
     content: "";
@@ -936,6 +937,7 @@ body {
     .About-img{
         height: calc(100dvh - 5.75rem);
         object-fit: cover;
+        opacity: .6;
     }
     .About-paragraph{
         font-size: 1rem ;
