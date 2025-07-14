@@ -740,10 +740,6 @@ body {
         flex-direction: row;
         align-items: center;
     }
-    .Footer-svg--contact{
-        width: 2rem;
-        height: 2rem;
-    }
     .Footer-whatsapp{
         display: none;
     }
@@ -918,7 +914,14 @@ body {
         padding: 2.5rem 1rem 0 1rem;
     }
     .Footer-wrapper{
-        padding: 1rem;
+        padding: 1rem 0 2.5rem 0;
+    }
+    .Footer-ul{
+        gap: 3rem;
+    }
+    .Footer-svg--contact{
+        height: 2.5rem;
+        width: 2.5rem;
     }
 }
 @media(max-width:568px){
