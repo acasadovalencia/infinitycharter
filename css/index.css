@@ -829,7 +829,9 @@ body {
     }
     .Equipments-ul{
         gap: 1.125rem;
-
+    }
+    .Equipment-li {
+    width: 100%;
     }
     .Equipments-svg{
         width: 2rem;
