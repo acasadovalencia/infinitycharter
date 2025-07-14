@@ -820,6 +820,19 @@ body {
         margin: 1.5rem 0 0;
         gap: 1.125rem;
     }
+    .Grid-ul{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .Grid-img{
+        transform: initial;
+        transition: none;
+    }
+    .Grid-li{
+        width: 100%;
+    }
     .Equipment-ul{
         flex-direction: column;
         gap: 1.5rem
