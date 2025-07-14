@@ -837,6 +837,10 @@ body {
     .Info-svg{
         width: 3rem;
     }
+    .Otherservices-ul{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 @media(max-width:685px){
     .Skills-ul{
