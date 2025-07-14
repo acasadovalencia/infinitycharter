@@ -949,6 +949,19 @@ body {
     .Info-li{
         gap: .5rem;
     }
+    .Info-span{
+        font-weight: 400;
+    }
+    .Contact-paragraph{
+        font-size: .875rem;
+    }
+    .Contact-li{
+        font-size: .875rem;
+        font-weight: 400;
+    }
+    .Policies-a{
+        font-size: .75rem;
+    }
 }
 @media(max-width:444px){
     .Marquee-ul{
