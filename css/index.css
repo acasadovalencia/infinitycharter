@@ -890,28 +890,31 @@ body {
         padding: 0 1rem;
      }
     .Infinity-characteristics{
-        padding: 5rem 1rem 0 1rem;
+        padding: 2.5rem 1rem 0 1rem;
     }
     .Infinity-equipment {
     padding: 1.5rem 1rem 0 1rem;
     }
     .Images-grid {
-    padding: 5rem 1rem 0 1rem;
+    padding: 2.5rem 1rem 0 1rem;
+    }
+    .Marquee-container{
+        margin: 2.5rem 0 0;
     }
     .Services-container{
-        padding: 5rem 1rem;
+        padding: 2.5rem 1rem;
     }
     .Info-container{
-        padding: 0 1rem 5rem 1rem;
+        padding: 0 1rem 2.5rem 1rem;
     }
     .Otherservices-container{
-        padding: 5rem 1rem;
+        padding: 2.5rem 1rem;
     }
     .Routes-wrapper{
-        padding: 5rem 1rem 0;
+        padding: 2.5rem 1rem 0;
     }
     .Contact-container{
-        padding: 5rem 1rem 0 1rem;
+        padding: 2.5rem 1rem 0 1rem;
     }
     .Footer-wrapper{
         padding: 1rem;
