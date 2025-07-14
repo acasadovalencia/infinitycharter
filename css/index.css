@@ -269,6 +269,7 @@ body {
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
+    width: 2.5rem;
 }
 .Infinity-equipment{
     padding: 2.5rem 5rem 0 5rem;
@@ -818,12 +819,17 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
-    .Characteristics-svg{
-        width: 2rem;
+    .Characteristics-ul{
+        margin: 1.5rem 0 0;
+        gap: 1.125rem;
     }
     .Equipment-ul{
         flex-direction: column;
-        gap: 2rem;
+        gap: 1.5rem
+    }
+    .Equipments-ul{
+        gap: 1.125rem;
+
     }
     .Equipments-svg{
         width: 2rem;
@@ -836,6 +842,7 @@ body {
     }
     .Info-svg{
         width: 3rem;
+        height: 3rem;
     }
     .Otherservices-ul{
         flex-direction: column;
@@ -884,7 +891,7 @@ body {
         padding: 5rem 1rem 0 1rem;
     }
     .Infinity-equipment {
-    padding: 1rem 1rem 0 1rem;
+    padding: 1.5rem 1rem 0 1rem;
     }
     .Images-grid {
     padding: 5rem 1rem 0 1rem;
