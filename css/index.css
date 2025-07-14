@@ -916,14 +916,30 @@ body {
     }
 }
 @media(max-width:568px){
+    .Hero-h1{
+        font-size: 2.5rem;
+        font-weight: 200;
+    }
+    .About-paragraph{
+        font-size: 1rem ;
+    }
     .Marquee-ul{
         width: 900%;
     }
     .Characteristics-svg{
         width: 1.5rem;
     }
+    .Infinity-paragraph{
+        font-size: .875rem;
+    }
+    .Characteristics-li{
+        font-size: 14px;
+    }
     .Equipments-svg{
         width: 1.5rem;
+    }
+    .Equipments-span{
+        font-size: .875rem;
     }
     .Info-ul{
     flex-direction: column;
