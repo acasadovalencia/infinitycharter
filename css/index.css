@@ -175,13 +175,12 @@ body {
     z-index: 1;
 }
 .About-picture{
-    min-height: calc(100vh - 5.75rem);
+    height: calc(100vh - 5.75rem);
     position: relative;
 }
 .About-img{
-    min-height: calc(100vh - 5.75rem);
+    height: calc(100vh - 5.75rem);
     object-fit: cover;
-    height: 100%;
 }
 .About-picture::before{
     content: "";
@@ -929,6 +928,14 @@ body {
         width: 100%;
         top: 2.5rem;
         transform: translate(0);
+    }
+    .About-picture{
+    height: calc(100dvh - 5.75rem);
+    position: relative;
+}
+    .About-img{
+        height: calc(100dvh - 5.75rem);
+        object-fit: cover;
     }
     .About-paragraph{
         font-size: 1rem ;
