@@ -326,6 +326,7 @@ body {
     object-fit: cover;
     transition: transform 1s ease;
     transform: scale(1.15);
+    height: 100%;
 }
 .Grid-img:hover{
     transform: scale(1);
