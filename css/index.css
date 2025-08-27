@@ -232,7 +232,7 @@ body {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     gap: 3.75rem;
     margin: 2.5rem 0 0;
 }
