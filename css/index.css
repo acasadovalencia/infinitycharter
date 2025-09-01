@@ -90,6 +90,10 @@ body {
 .Nav-a:hover::after{
     transform: scaleX(1);
 }
+.Nav-a.onView{
+        color: var(--font-c-cuaternary);
+
+}
 .Menu-wrapper{
     display: none;
 }
