@@ -13,6 +13,9 @@ const infinityLink = document.querySelectorAll('.Nav-a')[2]
 const servicesLink = document.querySelectorAll('.Nav-a')[3]
 const contactLink = document.querySelectorAll('.Nav-a')[4]
 
+const headerNav = document.querySelector('.Header-nav')
+const navBtn = document.querySelector('.Nav-btn')
+
 navLinks.forEach(link => {
     link.addEventListener('click', (e) =>{
         e.preventDefault()
@@ -21,6 +24,7 @@ navLinks.forEach(link => {
         const targetSection = document.querySelector(linkClicked)
 
         targetSection.scrollIntoView({ behavior: 'smooth' })
+        headerNav.classList.remove('isActive')
     })
 })
 
@@ -58,4 +62,10 @@ const handleScroll = () =>{
     }
 }
 
+const toggleMenu = ()=>{
+    headerNav.classList.toggle('isActive')
+}
+
+
+navBtn.addEventListener('click' , toggleMenu)
 window.addEventListener('scroll' , handleScroll)

@@ -783,10 +783,33 @@ body {
 }
 @media(max-width:820px){
     .Header-nav{
-        display: none;
+        opacity: 0;
+        pointer-events: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background-color: var(--bg-c-secondary);
+        transition: all .5s ease;
+    }
+    .Header-nav.isActive{
+        opacity: 1;
+        pointer-events: initial;
+    }
+    .Nav{
+        flex-flow: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height: 100%;
+        padding: 5.5rem 0;
     }
     .Menu-wrapper{
         display: block;
+    }
+    .Nav-btn{
+        cursor: pointer;
     }
     .Skills-h3{
         text-align: center;
