@@ -804,6 +804,7 @@ body {
         justify-content: space-around;
         height: 100%;
         padding: 5.5rem 0;
+        font-size: 2rem;
     }
     .Menu-wrapper{
         display: block;
