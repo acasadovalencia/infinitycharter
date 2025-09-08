@@ -16,6 +16,10 @@ const contactLink = document.querySelectorAll('.Nav-a')[4]
 const headerNav = document.querySelector('.Header-nav')
 const navBtn = document.querySelector('.Nav-btn')
 
+const heroVideo = document.querySelector('.Hero-video')
+const heroVideoMp4 = document.querySelector('.Hero-video--mp4')
+const heroVideoWebm = document.querySelector('.Hero-video--webm')
+
 navLinks.forEach(link => {
     link.addEventListener('click', (e) =>{
         e.preventDefault()
@@ -66,6 +70,19 @@ const toggleMenu = ()=>{
     headerNav.classList.toggle('isActive')
 }
 
+const setVideoSrc = ()=>{
+    const isMobile = window.matchMedia("(max-width:645px)").matches
+    if(isMobile){
+        heroVideoMp4.src = './assets/video/video-hero-347x540.mp4'
+        heroVideoWebm.src = './assets/video/video-hero-347x540.webm'
+    } else{
+        heroVideoMp4.src = './assets/video/video-hero-1360x768.mp4'
+        heroVideoWebm.src = './assets/video/video-hero-1360x768.webm'
+    }
+    heroVideo.load()
+}
+
+setVideoSrc()
 
 navBtn.addEventListener('click' , toggleMenu)
 window.addEventListener('scroll' , handleScroll)
