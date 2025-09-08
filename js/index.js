@@ -79,6 +79,7 @@ const setVideoSrc = ()=>{
         heroVideoMp4.src = './assets/video/video-hero-1360x768.mp4'
         heroVideoWebm.src = './assets/video/video-hero-1360x768.webm'
     }
+    heroVideo.load()
 }
 
 setVideoSrc()
