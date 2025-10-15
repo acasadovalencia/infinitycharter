@@ -14,7 +14,7 @@
 }
 body {
     min-height: 100vh;
-    font-size: 1rem;
+    font-size: 1.0625rem;
     font-weight: 300;
     font-family: var(--font-primary);
     -webkit-hyphens: auto;
@@ -35,7 +35,6 @@ body {
     text-transform: uppercase;
 }
 .H4{
-    font-size: 1.0625rem;
     text-transform: uppercase;
     font-style: italic;
 }
@@ -258,7 +257,6 @@ body {
     align-items: center;
     gap: .8125rem;
     font-family: var(--font-secondary);
-    font-size: 1.0625rem;
 }
 .Characteristics-svg{
     display: flex;
@@ -298,9 +296,6 @@ body {
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
-}
-.Equipments-span{
-    font-size: 1.0625rem;
 }
 .Images-grid{
     padding: 5rem 5rem 0 5rem;
@@ -419,9 +414,6 @@ body {
 .Prices-span{
     font-size: 2rem;
 }
-.Prices-span--details{
-    font-size: 1.0625rem;
-}
 .Info-container{
     padding: 0 5rem 5rem 5rem;
 }
@@ -513,7 +505,6 @@ body {
 }
 .Route-span{
     margin: .5rem 0 0;
-    font-size: 1.0625rem;
     font-weight: 200;
 } */
 .Map-img{
@@ -523,7 +514,6 @@ body {
     padding: 5rem 5rem 0 5rem;
 }
 .Contact-paragraph{
-    font-size: 1.0625rem;
     font-family: var(--font-secondary);
     margin: 2.5rem 0 0;
 }
@@ -557,7 +547,6 @@ body {
     align-items: center;
     gap: 1rem;
     font-family: var(--font-secondary);
-    font-size: 1.0625rem;
     line-height: 1.5rem;
 }
 .Whatsapp-a{
@@ -571,7 +560,6 @@ body {
     margin: 5rem 0 0;
     background-color: var(--bg-c-cuaternary);
     color: var(--font-c-tertiary);
-    font-size: 1.0625rem;
     font-family: var(--font-secondary);
 }
 .Footer-wrapper{
@@ -646,7 +634,6 @@ body {
     align-items: flex-start;
     gap: 5rem;
     padding: 0 0 2.5rem;
-    font-size: 1.0625rem;
     text-decoration: underline;
 }
 .Policies-li{
