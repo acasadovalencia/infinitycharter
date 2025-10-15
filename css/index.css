@@ -15,6 +15,7 @@
 body {
     min-height: 100vh;
     font-size: 1rem;
+    font-weight: 300;
     font-family: var(--font-primary);
     -webkit-hyphens: auto;
         -ms-hyphens: auto;
@@ -26,7 +27,6 @@ body {
 }
 .H2{
     font-size: 3.25rem;
-    font-weight: 300;
     line-height: 4rem;
     text-transform: uppercase;
 }
@@ -38,7 +38,6 @@ body {
     font-size: 1.0625rem;
     text-transform: uppercase;
     font-style: italic;
-    font-weight: 300;
 }
 .Header{
     width: 100%;
@@ -61,7 +60,6 @@ body {
     align-items: center;
     gap: .625rem;
     font-size: 1.5rem;
-    font-weight: 300;
 }
 .Nav-li{
     text-transform: uppercase;
@@ -116,7 +114,6 @@ body {
     transform: translateY(-50%);
     text-transform: uppercase;
     font-size: 3.25rem;
-    font-weight: 300;
     max-width: 50rem;
     line-height: 4rem;
     padding: 0 5rem;
@@ -157,14 +154,12 @@ body {
 .Skills-h3{
     font-size: 1.5rem;
     color: var(--font-c-cuaternary);
-    font-weight: 300;
 }
 .Svg-wrapper--mobile{
     display: none;
 }
 .Skills-paragraph{
     font-family: var(--font-secondary);
-    font-weight: 300;
     line-height: 1.625rem;
     color: var(--font-c-secondary);
 }
@@ -219,7 +214,6 @@ body {
     font-family: var(--font-secondary);
     font-size: 1.5rem;
     line-height: 2.25rem;
-    font-weight: 300;
     max-width: 40.9375rem;
 }
 .Infinity-characteristics{
@@ -265,7 +259,6 @@ body {
     gap: .8125rem;
     font-family: var(--font-secondary);
     font-size: 1.0625rem;
-    font-weight: 300;
 }
 .Characteristics-svg{
     display: flex;
@@ -307,7 +300,6 @@ body {
     gap: 1rem;
 }
 .Equipments-span{
-    font-weight: 300;
     font-size: 1.0625rem;
 }
 .Images-grid{
@@ -412,7 +404,6 @@ body {
 .Services-paragraph{
     font-family: var(--font-secondary);
     color: var(--font-c-secondary);
-    font-weight: 300;
     line-height: 1.625rem;
     margin: 1.5rem 0 0;
 }
@@ -502,7 +493,6 @@ body {
 .Routes-paragraph{
     margin: 1rem 0 0;
     font-family: var(--font-secondary);
-    font-weight: 300;
     font-size: 1.5rem;
 }
 .Routes-container{
@@ -534,7 +524,6 @@ body {
 }
 .Contact-paragraph{
     font-size: 1.0625rem;
-    font-weight: 300;
     font-family: var(--font-secondary);
     margin: 2.5rem 0 0;
 }
@@ -569,7 +558,6 @@ body {
     gap: 1rem;
     font-family: var(--font-secondary);
     font-size: 1.0625rem;
-    font-weight: 300;
     line-height: 1.5rem;
 }
 .Whatsapp-a{
@@ -585,7 +573,6 @@ body {
     color: var(--font-c-tertiary);
     font-size: 1.0625rem;
     font-family: var(--font-secondary);
-    font-weight: 300;
 }
 .Footer-wrapper{
     display: grid;
@@ -607,7 +594,6 @@ body {
 }
 .Footer-paragraph{
     margin: .5rem 0 0;
-    font-weight: 300;
 }
 .Footer-btn{
     margin: 1.5rem 0 0;
@@ -1009,7 +995,7 @@ body {
         font-size: .875rem;
     }
     .Characteristics-li{
-        font-size: 14px;
+        font-size: .875rem;
     }
     .Equipments-svg{
         width: 1.5rem;
