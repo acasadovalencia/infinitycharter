@@ -12,9 +12,6 @@
     --bg-c-tertiary: #102634;
     --bg-c-cuaternary: #10B2BE; 
 }
-.Routes{
-    display: none;
-}
 body {
     min-height: 100vh;
     font-size: 1rem;
@@ -349,6 +346,7 @@ body {
     background-color: var(--bg-c-cuaternary);
     overflow-x: hidden;
     margin: 5rem 0 0;
+    display: none;
 }
 .Marquee-ul{
     /* display: grid;
@@ -498,7 +496,7 @@ body {
 .Otherservices-span--price{
     font-style: italic;
 }
-.Routes-wrapper{
+/* .Routes-wrapper{
     padding: 5rem 5rem 0;
 }
 .Routes-paragraph{
@@ -527,7 +525,7 @@ body {
     margin: .5rem 0 0;
     font-size: 1.0625rem;
     font-weight: 200;
-}
+} */
 .Map-img{
     object-fit: cover;
 }
