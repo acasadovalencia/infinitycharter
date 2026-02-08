@@ -25,6 +25,16 @@ body {
     background-color: var(--bg-c-primary);
     color: var(--font-c-primary);
 }
+.seo-novisible{
+  position: absolute;
+  opacity: 0;        
+  pointer-events: none;
+  width: 1px;        
+  height: 1px;       
+  overflow: hidden;  
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
 .H2{
     font-size: 3.25rem;
     line-height: 4rem;
@@ -277,7 +287,6 @@ body {
     gap: 1.125rem;
     width: 100%;
     font-family: var(--font-secondary);
-
 }
 .Equipment-li{
     width: 50%;
@@ -299,6 +308,12 @@ body {
 }
 .Images-grid{
     padding: 5rem 5rem 0 5rem;
+}
+.Images-h3{
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    pointer-events: none;
 }
 .Grid-ul{
     display: grid;
@@ -432,6 +447,7 @@ body {
     align-items: center;
     gap: 1.5rem;
 }
+
 .Info-svg{
         width: 3.75rem;
         height: 3.75rem;
